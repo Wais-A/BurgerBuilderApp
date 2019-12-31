@@ -1,0 +1,40 @@
+{
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+    "prettier.jsxBracketSameLine": true,
+    "prettier.jsxSingleQuote": true,
+    "reactReduxSnippets.LinterRules": "Strict",
+    "editor.snippetSuggestions": "top",
+    "emmet.showSuggestionsAsSnippets": true,
+    "css.trace.server": "verbose",
+    "debug.node.autoAttach": "on",
+    "javascript.format.insertSpaceAfterConstructor": true,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+    "javascript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+    "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+    "javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+    "javascript.format.placeOpenBraceOnNewLineForFunctions": true,
+    "javascript.format.semicolons": "insert",
+    "javascript.implicitProjectConfig.checkJs": true,
+    "javascript.implicitProjectConfig.experimentalDecorators": true,
+    "javascript.referencesCodeLens.enabled": true,
+    "javascript.referencesCodeLens.showOnAllFunctions": true,
+    "javascript.suggest.completeFunctionCalls": true,
+    "typescript.implementationsCodeLens.enabled": true,
+    "typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+    "html-css-class-completion.enableEmmetSupport": true,
+    "emmet.triggerExpansionOnTab": true,
+    "editor.acceptSuggestionOnEnter": "smart",
+    "bracketPairColorizer.rulerPosition": "Full",
+     "materialTheme.accent": "Remove accents",
+     "workbench.colorCustomizations": {},
+     "workbench.colorTheme": "Material Theme Ocean High Contrast",
+     "files.associations": {
+         "*.js": "javascriptreact"
+     },
+     "workbench.iconTheme": "material-icon-theme",
+     "emmet.includeLanguages": {
+         "javascript": "javascriptreact"
+     },
+     
+}
