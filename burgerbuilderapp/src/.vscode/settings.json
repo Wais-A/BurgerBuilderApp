@@ -1,0 +1,9 @@
+{
+    "workbench.settings.openDefaultSettings": true,
+    "workbench.settings.editor": "ui",
+    "workbench.settings.useSplitJSON": true,
+     "emmet.includeLanguages": {
+         "javascript": "javascriptreact"
+     },
+     "emmet.triggerExpansionOnTab": true
+}
