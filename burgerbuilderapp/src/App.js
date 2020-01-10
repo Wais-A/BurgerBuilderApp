@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Route, Switch } from "react-router-dom";
-
+import Auth from './containers/Auth/Auth'
 import Layout from "./hoc/Layout/Layout";
 import BurgerBuilder from "./containers/BurgerBuilder/BurgerBuilder";
 import Checkout from "./containers/Checkout/Checkout";
@@ -13,8 +13,9 @@ class App extends Component {
 				<Layout>
 					<Switch>
 						<Route path='/checkout' component={Checkout} />
-						<Route path='/' exact component={BurgerBuilder} />
-						<Route path="/orders" component={ Orders } />
+						<Route path='/orders' exact component={Orders} />
+						<Route path='/auth' exact component={Auth} />
+						<Route path="/" component={ BurgerBuilder } />
 
 					</Switch>
 
