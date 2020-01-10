@@ -12,7 +12,7 @@ class Orders extends Component {
 	}
 
 	render() {
-        console.log()
+        console.log();
 		let orders = <Spinner />;
 		if (!this.props.loading) {
 			orders = this.props.orders.map(order => (

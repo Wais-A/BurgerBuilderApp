@@ -17,7 +17,7 @@ class BurgerBuilder extends Component {
     state = {
        
         purchasing: false,
-    }
+    };
 
     componentDidMount () {
         console.log(this.props);
@@ -39,18 +39,18 @@ class BurgerBuilder extends Component {
     
     purchaseHandler = () => {
         this.setState( { purchasing: true } );
-    }
+    };
 
     purchaseCancelHandler = () => {
         
         this.setState( { purchasing: false } );
-    }
+    };
 
     purchaseContinueHandler = () => {
-        this.props.onInitPurchase()
+        this.props.onInitPurchase();
     
         this.props.history.push('/checkout');
-    }
+    };
 
     render () {
         

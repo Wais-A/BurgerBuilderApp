@@ -15,11 +15,11 @@ const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const rootReducer = combineReducers({
 	burgerBuilder: burgerBuilder,
 	order: orderReducer
-})
+});
 
 const store = createStore( rootReducer, composeEnhancers(
 	applyMiddleware(thunk)
-))
+));
 const app = (
 	<Provider store={store}>
 		<BrowserRouter>
