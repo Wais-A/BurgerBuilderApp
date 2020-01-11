@@ -6,8 +6,14 @@ import Layout from "./hoc/Layout/Layout";
 import BurgerBuilder from "./containers/BurgerBuilder/BurgerBuilder";
 import Checkout from "./containers/Checkout/Checkout";
 import Orders from './containers/Orders/Orders';
+import {connect} from 'react-redux'
+import * as actions from './Store/actions/index'
 
 class App extends Component {
+
+	componentDidMount (){
+		this.props.onTryAutoSignup()
+	}
 	render() {
 		return (
 			<div>
@@ -27,4 +33,11 @@ class App extends Component {
 	}
 }
 
-export default App;
+const mapDispatchToProps = (dispatch) => {
+	return {
+		onTryAutoSignup: () => dispatch(actions.authCheckState())
+		
+	};
+};
+
+export default connect(null, mapDispatchToProps)(App);
